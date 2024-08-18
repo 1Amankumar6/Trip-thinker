@@ -5,6 +5,7 @@
   --primary-color-dark: #2476da;
   --text-dark: #0a0a0a;
   --text-light: #737373;
+  --text-snow: #fffafa ;
   --extra-light: #f3f4f6;
   --white: #ffffff;
   --max-width: 1200px;
@@ -161,7 +162,7 @@ header::before {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: url("assets/header-bg.jpg");
+  background-image: url("assets/bgBanner.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -179,9 +180,9 @@ header::before {
 
 .header__content p {
   margin-bottom: 5px;
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--text-dark);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--primary-color);
   text-align: center;
 }
 
@@ -189,7 +190,7 @@ header::before {
   margin-bottom: 2rem;
   font-size: 4.5rem;
   font-weight: 600;
-  color: var(--text-dark);
+  color: var(--text-snow);
   line-height: 5.5rem;
   text-align: center;
 }
